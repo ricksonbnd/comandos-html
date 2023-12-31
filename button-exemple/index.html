@@ -11,10 +11,22 @@
     <p>
         <form onsubmit="alert('obrigado por clicar')"  method="get">
             <label>Nome</label><input type="text" name="name"><br>
-            <label>Email</label><input type="number" name="email"><br>
+            <label>Email</label><input type="email" name="email"><br>
             <label>Password</label><input type="password" name="password"><br>
+            <label>Cargo: </label>
+            <select name="cargo">
+                <option value="">Selecione o cargo</option>
+                <option value="estagiario">Estagiario</option>
+                <option value="junior">Junior</option>
+                <option value="senior">Senior</option>
+            </select>
+
+
 
             <br><button type="submit">Enviar</button><br>
+            
+
+
         </form>
     </p>
 
