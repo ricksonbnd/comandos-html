@@ -69,13 +69,13 @@ Trabalha com a o comando `<imput>` e os atribulos `type="text"` `type="number"` 
 
 `<button>` é um comando que cria um botão para o usuario executar/enviar o código
 
-`method="methodName"` é um atributo do `<form>` para definir o metodo que as informações iram ser enviadas, também muda o texto da URL, podendo esconder os dados inseridos.
+`method="methodName"` é um atributo do `<form>` para definir o metodo que as informações iram ser enviadas, também muda o texto da URL, podendo esconder os dados inseridos. Podendo ser `get` para enviar na URL os dados preenchidos ou `post` para enviar embutido na url os dados para ficarem ilegiveis.
 
 `target="targetName` pode-se utilizar os atributos de target para forçar abrir a página em nova janela, em uma nova aba ou na mesma página.
 
 `autocomplete="on/off"` atributo para reutilizar as informações preenchidas anteriormente. Esse atributo pode sobreescrever o recurso do navegador autopreencher nativo. Defina entre `on` ou `off`. Grava brevemente, util quando aperta o comando "voltar" apos ter enviado.
 
-`onsubmit="eventName"` define um evento para executar ao dar o submit no formulario, é acessada através de JS.
+`onsubmit="eventName"` define um evento para executar ao dar o submit no formulario, é acessada através de JS, serve principalmente para fazer uma verificação dos dados que serão enviados.
 
 ### TAG `<INPUT>`
 
@@ -125,3 +125,8 @@ Precisa do comando `<option value="nameText"> descriptionText </option>` para ca
 
 Todo dado a ser enviado precisa de um atributo `name="nameText"`. O atributo `selected` seleciona uma das opções no momento que carregar a página. Pode utilizar o atributo `multiple`
  para seleção de várias opções, mas fica estranho.
+
+
+### TAG `<textarea> </textarea>`
+
+`<textarea>` cria um campo de texto para digitação. Possui atributos como `rows="numberText"` e `cols="numberText"`.
