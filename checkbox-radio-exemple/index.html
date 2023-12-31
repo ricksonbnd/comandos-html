@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria italiano programador</title>
+</head>
+<body>
+    <h1><label><strong>Seja bem-vindo a pizzaria Italiano Programador!</strong></label></h1><br>
+    <h3><strong>Qual pizza deseja encomendar?</strong></h3><br>
+    <form>
+        <p>       
+            <label>Peperoni</label><input type="checkbox" name="sabor[]" value="peperoni"><br>
+            <label>Calabresa</label><input type="checkbox" name="sabor[]" value="calabresa"><br>
+            <label>Portuguessa</label><input type="checkbox" name="sabor[]" value="Portuguesa"><br>
+            <label>Lombo Canadense</label><input type="checkbox" name="sabor[]" value="Lombo Canadense"><br>
+            <br>
+        </p>
+        <h3>Deseja com Bordas Recheadas?</h3>
+        <p>
+            <label>Sim</label><input type="radio" name="borda" value="sim"><br>
+            <label>Não</label><input type="radio" name="borda" value="nao" checked><br>
+        </p>
+        <h3>Bebidas</h3>
+        <p>
+            <label>Cerveja</label><input type="radio" name="bebida" value="cerveja"><br>
+            <label>Coca Cola</label><input type="radio" name="bebida" value="cocacola"><br>
+            <label>Pepsi</label><input type="radio" name="bebida" value="pepsi" disabled><br>
+            <label>Àgua Mineral</label><input type="radio" name="bebida" value="agua"><br>
+            <label>Nenhuma</label><input type="radio" name="bebida" value="nenhuma" checked><br>
+        </p>
+        <br><button type="submit"><strong>ENCOMENDAR</strong></button>
+        
+    </form>
+</body>
+</html>
