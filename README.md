@@ -110,3 +110,9 @@ Há vários tipos de `input`, alguns funcionam em certos navegadores e entros n�
 `<input type="file">` campo de enviar arquivos. Pode usar o atributo `multiple` para permitir o envio de vários arquivos ao mesmo tempo.
 
 `<input type="search">` abre um campo texto para busca. Possui um "x" na caixa para limpar o texto. Não funciona em todos navegadores.
+
+## ATRIBUTO `CHECKBOX` E `RADIO`
+
+Esse atributo de botão deve ser trabalhado com certo cuidado para ser útil. O `checkbox` deve ter um `name="nameText[]"` de forma de matrix para quando poder enviar uma matrix das opções escolhidas para o serve-side. Cada checkbox deve ter um `value` que diferencia de outros checkbox
+
+O atributo `radio` deve ter um `name="nameText"` com `nameText` iguais entre as seleções pois as opções da seleção de `radio` operam na função "um ou o outro", para assim quando uma das opções for marcada, a outra é desselecionada. E apresentar um `value` que será enviado para server-side.
