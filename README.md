@@ -77,7 +77,7 @@ Trabalha com a o comando `<imput>` e os atribulos `type="text"` `type="number"` 
 
 `onsubmit="eventName"` define um evento para executar ao dar o submit no formulario, é acessada através de JS.
 
-## TAG `<INPUT>`
+### TAG `<INPUT>`
 
 Há vários tipos de `input`, alguns funcionam em certos navegadores e entros não. Embora haja conveção entre os navegadores não há 100% de contabilidade entre eles.
 
@@ -111,8 +111,17 @@ Há vários tipos de `input`, alguns funcionam em certos navegadores e entros n�
 
 `<input type="search">` abre um campo texto para busca. Possui um "x" na caixa para limpar o texto. Não funciona em todos navegadores.
 
-## ATRIBUTO `CHECKBOX` E `RADIO`
+### ATRIBUTO `CHECKBOX` E `RADIO`
 
 Esse atributo de botão deve ser trabalhado com certo cuidado para ser útil. O `checkbox` deve ter um `name="nameText[]"` de forma de matrix para quando poder enviar uma matrix das opções escolhidas para o serve-side. Cada checkbox deve ter um `value` que diferencia de outros checkbox
 
 O atributo `radio` deve ter um `name="nameText"` com `nameText` iguais entre as seleções pois as opções da seleção de `radio` operam na função "um ou o outro", para assim quando uma das opções for marcada, a outra é desselecionada. E apresentar um `value` que será enviado para server-side.
+
+### TAG `<SELECT>` DENTRO DO `<FORM>`
+
+`<select>` e `</select>` determina valores predefinidos para serem preenchidos em `<form>`. Funciona como escrutura.
+
+Precisa do comando `<option value="nameText"> descriptionText </option>` para cada opção a ser predefinida.
+
+Todo dado a ser enviado precisa de um atributo `name="nameText"`. O atributo `selected` seleciona uma das opções no momento que carregar a página. Pode utilizar o atributo `multiple`
+ para seleção de várias opções, mas fica estranho.
