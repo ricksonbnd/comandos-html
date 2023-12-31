@@ -7,10 +7,30 @@
 </head>
 <body>
     <form name="signup" autocomplete="on" method="post" action="##https://meusite.com.br/signup">
-        Nome: <input type="text" name="name"><br>
-        Idade: <input type="number" name="age"><br>
-        Password: <input type="password" name="password"><br>
-        <button type="submit">Enviar</button>
+        <label> Nome: </label><input type="text" name="name"><br>
+        <label> Idade: </label><input type="number" name="age"><br>
+        <label> Password: </label><input type="password" name="password"><br>
+        <label> Altura: </label><input type="range" max="2,30" min="1,2" value="1,7"><br>
+        <label> Cor: </label><input type="color" value="#329222"><br>
+        <label> Email: </label><input type="email" value="seuemailaqui@email.com"><br>
+        <label> URL do seu site: </label> <input type="url" value="https://seusiteaqui.com"><br>
+        <label> Data de inscrição: </label> <input type="date"><br>
+        <label> Deseja receber notificações sobre nossas ofertas?</label><br>
+        <label> Promoções</label><input type="checkbox"><br>
+        <label> Changelogs</label><input type="checkbox"><br>
+        <label> Novos produtos</label><input type="checkbox"><br>
+        <label> Sexo: </label>
+        <label> Masculino</label><input type="radio" name="sexo" checked>
+        <label> Feminino</label><input type="radio" name="sexo">
+        <label> Outro</label><input type="radio" name="sexo"><br>
+        <label></label> <input type="hidden">
+        <label> Carregue arquivos com seus documentos:</label> <input type="file" multiple><br>
+        <label> FAQ </label> <input type="search"><br>
+
+
+
+
+        <br><button type="submit">Enviar</button>
 
     </form>
 </body>

@@ -55,6 +55,8 @@ O Java Scrip (JS) tem a capacidade de ler o html e ler certo identificador como 
 1. `target="_targetName"` utilizando com o comando `<a>` o _name define como a página será aberta. `self` para abrir na mesma página. `_blank` para uma nova aba.
 1. `title="nameText"` define um texto de tooltip o texto "nameText"
 1. `name="nameText"` associa um nome ao name passa ser identificado atráves de JS.
+1. `value="valueName"` determina um valor pré-selecionado para alguma váriavel. Pode ser um texto, cor, número, etc.
+1. `checked` determina o valor true a alguma checkbox ou radio.
 
 ## TAG ESPECIFICAS
 
