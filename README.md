@@ -27,6 +27,7 @@ Melhores referencias para html no site [w3schools.com](w3schools.com)
 1. `<ul>` e `</ul>` lista não ordenada de `<li>`, os marcadores são bolinhas.
 1. `<li>` e `</li>` lista index
 1. `<font>` e `</font>` para mudar a fonte, deve usar atributos (color, face, etc) para fazer as modificações.
+1. `<iframe>` e `<iframe>` pode gerar midias e contéudos, além de carregar um site externo através da incorporação. Ex de incorporações: google maps e youtube.
 
 ### COMANDOS HTML
 
@@ -43,9 +44,11 @@ Melhores referencias para html no site [w3schools.com](w3schools.com)
 1. `<a>` texto descritivo `</a>`ancarando a algum lugar, usado com `href="link"` vai criar um hyperlink
 1. `<form>` cria um formulario, utiliza atributos.
 1. `<button>` cria um botão, utiliza atributos.
-1. `<label>`nome`</label>` serve para dar um nome para algo em seguida.
+1. `<label>`nome`</label>` serve para dar um nome para algo em seguida, geralmente `input`
 1. `<div>` e `</div>` são separadores de contéudos, como menus, toolbar, texto, etc. Deve ter uma `id`. São display block, elas consomem toda área horizontal disponível.
 1. `<span>` e `<span>` é semelhante a `<div>`, porém não tem o display block. Util para usar com css, não necessita do atributo `id` ?
+1. `<fieldset>` faz um contorno da área interior. Usado com a tag `<legend>` pode dar uma leganda interessante.
+1. `<legend>` e `</legend>` da uma legenda a algo.
 
 ### ATRUBITOS
 
