@@ -26,20 +26,26 @@ Melhores referencias para html no site [w3schools.com](w3schools.com)
 1. `<ol>` e `</ol>` lista ordenada de `<li>`, com marcadores númericos
 1. `<ul>` e `</ul>` lista não ordenada de `<li>`, os marcadores são bolinhas.
 1. `<li>` e `</li>` lista index
+1. `<font>` e `</font>` para mudar a fonte, deve usar atributos (color, face, etc) para fazer as modificações.
 
 ### COMANDOS HTML
 
-1. `<br>` quebra de texto
-1. `<i>`*italico*`<i>`
-1. `<strong>` **negrito** `</strong>`
-1. `<u>` sublinhado `</u>` sublinhado
-1. `<sup>` sobrescrito `<sup>` sobrescrito
-1. `<input/>` Abre uma caixa de do tipo de input, precisa definir um atributo do `type="name"`
-1. `<img/>` mostra uma imagem, precisa definir um url ou diretorio com o atributo `src="name"`
+1. `<br>` quebra de texto.
+1. `<i>`*italico*`<i>`.
+1. `<strong>` **negrito** `</strong>` negrito para enfase para ferramentas de acessebilidade (leito de texto).
+1. `<b>` **negrito** `<b>` negrito sem enfase.
+1. `<u>` sublinhado `</u>` sublinhado.
+1. `<mark>` marca `</mark>` igual marcador de texto.
+1. `<sup>` sobrescrito `<sup>` sobrescrito.
+1. `<sub>` subescreve `<sub>` subescreve.
+1. `<input/>` Abre uma caixa de do tipo de input, precisa definir um atributo do `type="name"`.
+1. `<img/>` mostra uma imagem, precisa definir um url ou diretorio com o atributo `src="name"`.
 1. `<a>` texto descritivo `</a>`ancarando a algum lugar, usado com `href="link"` vai criar um hyperlink
 1. `<form>` cria um formulario, utiliza atributos.
 1. `<button>` cria um botão, utiliza atributos.
 1. `<label>`nome`</label>` serve para dar um nome para algo em seguida.
+1. `<div>` e `</div>` são separadores de contéudos, como menus, toolbar, texto, etc. Deve ter uma `id`. São display block, elas consomem toda área horizontal disponível.
+1. `<span>` e `<span>` é semelhante a `<div>`, porém não tem o display block. Util para usar com css, não necessita do atributo `id` ?
 
 ### ATRUBITOS
 
@@ -57,6 +63,7 @@ O Java Scrip (JS) tem a capacidade de ler o html e ler certo identificador como 
 1. `name="nameText"` associa um nome ao name passa ser identificado atráves de JS.
 1. `value="valueName"` determina um valor pré-selecionado para alguma váriavel. Pode ser um texto, cor, número, etc.
 1. `checked` determina o valor true a alguma checkbox ou radio.
+1. `face="nameFont"` para determinar uma fonte para tag `<font>`. Considerar que pode colocar mais de uma fonte para, caso o usuário não tiver a primeira das fontes, utilizar a segunda.
 
 ## TAG ESPECIFICAS
 
@@ -125,7 +132,6 @@ Precisa do comando `<option value="nameText"> descriptionText </option>` para ca
 
 Todo dado a ser enviado precisa de um atributo `name="nameText"`. O atributo `selected` seleciona uma das opções no momento que carregar a página. Pode utilizar o atributo `multiple`
  para seleção de várias opções, mas fica estranho.
-
 
 ### TAG `<textarea> </textarea>`
 
